@@ -1,0 +1,16 @@
+<hml>
+  <bug_report>
+    <tg_name>"@jenya1234567"</tg_name>
+    <bug_id>"111"</bug_id>
+    <title>"Send Email button return options not related to sending Email"</title>
+    <Severity>"Minor"</Severity>
+    <Priority>"Low"</Priority>
+    <Environment>"1)Samsung Galaxy S9+, Android 10"</Environment>
+    <Precondition>"Installed app on the device"</Precondition>
+    <STR>
+      <STR1>"1. Open the APP"</STR1>
+      <STR2>"2. Tap “Send Email” button"</STR2>
+    <STR>
+    <AR>"App return different links not related to sending email"</AR>
+    <ER>"App return  links related to sending email"</ER>
+  </bug_report>
