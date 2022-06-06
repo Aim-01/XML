@@ -1,5 +1,6 @@
 <hml>
-  <bug_report>
+  <bug_reports>
+    <bug_rep1>
     <tg_name>"@jenya1234567"</tg_name>
     <bug_id>"111"</bug_id>
     <title>"Send Email button return options not related to sending Email"</title>
@@ -10,7 +11,24 @@
     <STR>
       <STR1>"1. Open the APP"</STR1>
       <STR2>"2. Tap “Send Email” button"</STR2>
-    <STR>
+    </STR>
     <AR>"App return different links not related to sending email"</AR>
     <ER>"App return  links related to sending email"</ER>
-  </bug_report>
+  </bug_rep1>
+      <bug_rep2>
+      <tg_name>"@VladislavDunin"</tg_name>
+    <bug_id>"102"</bug_id>
+    <title>"Widget Icon: Widget size values, widget height and width set to 0"</title>
+    <Severity>"Minor"</Severity>
+    <Priority>"Low"</Priority>
+    <Environment>"1)Redmi Note 8 M1908C3JG; Android 10</Environment>
+    <Precondition>"Open the App"</Precondition>
+    <STR_1>
+      <STR1_>"1)Click button Add widget"</STR1>
+      <STR2_>"2)Hide application"</STR2>
+      <STR3_>"3)Look the widget icon"</STR3_>
+    </STR_1>
+    <AR>"parameters Height(H) and Width(W) are set to 0"</AR>
+    <ER>"the parameters Height (H) and "Width (W) are in values in relation to the screen resolution settings that the user has set"</ER>
+      </bug_rep2>
+      </bug_reports>
